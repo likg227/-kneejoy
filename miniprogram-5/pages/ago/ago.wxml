@@ -1,0 +1,8 @@
+<view class="aaa">aaaaa</view>
+<view><button bindtap="getData" type="primary"  class="before"> 查看过往记录</button></view>
+<view wx:for="{{datalist}}">
+<view class="itemRoot">
+ <view class="title1">{{item.title}}</view>
+ <view class="interval">{{item.content}}</view>
+</view>
+</view>

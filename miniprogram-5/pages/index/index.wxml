@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="consloeDesk">控制台</view>
+
+<view class="connnect">
+  <view wx:if='{{deviceConnected}}'>
+    设备已经连接 OwO
+  </view>
+  <view  class="connect1" wx:else>
+    设备还未连接 QAQ
+  </view>
+</view>
+
+<view class="first">
+<view class="tem">温度调整</view>
+    <switch class='cold1' id='cold' checked='{{cold_checked}}' bindchange='change'><text class="ice">冷敷</text><text class="aaa">aaaaaa</text></switch>
+    <switch class='heat1' id='heat' checked='{{heat_checked}}' bindchange='change'><text class="ice">热敷</text></switch>
+</view>
+
+
+<view class="second">
+   <view class="angle">限位角度</view>
+   <switch class='up1' id='up' checked='{{up_checked}}' bindchange='change'><text class="ice">上调</text><text class="aaa">aaaaaa</text></switch>
+    <switch class='down1' id='down' checked='{{down_checked}}' bindchange='change'><text class="ice">下调</text></switch>
+</view>
+
+<view class="third">
+    <view class="act">康复运动</view>
+   <switch class='recover1' id='recover' checked='{{recover_checked}}' bindchange='change'><text class="aaa">aa</text><text class="ice">开始</text></switch>
+</view>
+
+

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/record/record",
+    "pages/images/images",
+    "pages/ago/ago"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#d6ecf0",
+    "navigationBarTitleText": "欢迎使用 knee joy！"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#d6ecf0",
+    "color": "grey",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/首页.png",
+        "selectedIconPath": "pages/images/选中时的首页.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记录",
+        "iconPath": "pages/images/浅色.png",
+        "selectedIconPath": "pages/images/深色.png"
+      },
+      {
+        "pagePath": "pages/ago/ago",
+        "text": "过往记录",
+        "iconPath": "pages/images/浅色文本.png",
+        "selectedIconPath": "pages/images/深色文本.png"
+      }
+    ]
+  }
+}

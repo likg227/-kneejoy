@@ -1,0 +1,7 @@
+<view class="record">每次康复的记录</view>
+
+<form report-submit="true" bindsubmit="save" class="title" >
+  <input bindinput="addTitle"  class="biao" type="text" placeholder="请输入时间" placeholder-class="placeholder" name="title" />
+  <textarea bindinput="addContent" placeholder="请输入内容" placeholder-class="placeholder" name="content"  class="content1"/>
+  <button bindtap="preserve" class="button" type="primary" formType="reset">保存这条记录</button>
+</form>

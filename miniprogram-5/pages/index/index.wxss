@@ -1,0 +1,60 @@
+.consloeDesk{
+  font-size: 60px;
+  font-weight: bolder;
+  color:#d6ecf0;
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 15px
+}
+.connnect{
+  text-align: center;
+  color: rgb(209, 208, 208)
+}
+.tem
+{
+   font-size: 38px;
+  text-align: center;
+  margin-top:18px;
+  color:#d6ecf0;
+  font-weight: bold;
+  margin-bottom: 17px
+}
+.angle
+{
+   font-size: 38px;
+  text-align: center;
+  margin-top:35px;
+  color:#d6ecf0;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+.act{
+   font-size: 38px;
+  text-align: center;
+  margin-top:35px;
+  margin-bottom: 17px;
+  color:#d6ecf0;
+  font-weight: bold
+}
+.ice
+{
+   font-size: 29px;
+  color:#d6ecf0;
+  font-weight: bold
+}
+.first
+{
+  text-align: center
+}
+.second
+{
+  text-align: center
+}
+.third
+{
+  text-align: center
+}
+.aaa
+{
+  color: rgb(105, 105, 105)
+}
