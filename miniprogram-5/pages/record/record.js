@@ -24,12 +24,6 @@ Page({
         },
         fail(res) {
           console.log("保存失败", res)
-          wx.showToast({
-            title: '保存失败',
-            icon: 'fail',
-            duration: 1000,
-            mask: true
-          })
         }
 
       })
